@@ -55,3 +55,61 @@ nav li a{
     text-decoration: none;
     color: rgba(66, 66, 71, 1);
 }
+/* banner1 style */
+.banner1{
+    background-image: linear-gradient(to bottom,rgb(63, 63, 68), rgba(241, 241, 245, 0)),url(Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    width: 100%;
+    max-width: 1170px;
+    height: 500px;
+    margin: 100px auto;
+    position: relative;
+    text-align: center;
+}
+.explore{
+    font-size: 64px;
+    font-weight: 800;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 100px;
+    right: 287px;
+    bottom: 320px;
+    left: 287px;
+}
+.details{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 210px;
+    right: 247px;
+    bottom: 238px;
+    left: 247px;
+}
+.parent{
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    width: 830px;
+    position: absolute;
+    left: 15%;
+    top: 60%;
+    margin-top: 30px;
+}
+.parent2{
+    display: flex;
+    gap: 25px;
+}
+.parent2 input {
+    border: none;
+    border-radius: 16px;
+    padding: 15px;
+}
+.btn{
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 84, 0, 1);
+    padding: 8px 25px;
+    border-radius: 16px;
+}

@@ -149,3 +149,35 @@ nav li a{
 .img{
     margin-left: 55px;
 }
+/* footer section style */
+footer{
+    background-color: rgba(19, 19, 24, 0.05);
+    text-align: center;
+    margin-top: 100px;
+}
+.home-img2 img{
+    height: 48px;
+    width: 55px;
+}
+.barisal-travel-end{
+    text-align: center;
+}
+.icons{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 35px;
+}
+.home-img2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 110px;
+}
+hr{
+    margin: 50px 284px;
+}
+.all{
+    padding-bottom: 20px;
+}
